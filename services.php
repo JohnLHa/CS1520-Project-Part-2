@@ -5,6 +5,8 @@ $title = "Services";
 $content = "
 
 <html>
+
+
 	<head>
 		<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 		<link rel='Stylesheet' type='text/css' href='css/services.css'/>
@@ -17,71 +19,137 @@ $content = "
 
 
 		<section class='productList'>
-			<div class='product'> 
-				<span class='name'>Regular Pedicure and Manicure</span><span class='price'>$40</span>
+			<div class='product'>
+				<div class='name'>Regular Pedicure and Manicure
+					<span class='tooltiptext'>Basic clean up of toenails and fingernails including massage.</span>
+				</div>
+				<div class='price'>$40</div>
 			</div>
 			<div class='product'>
-				<span class='name'>Regular Manicure</span><span class='price'>$15</span>
+				<div class='name'>Regular Manicure
+					<span class='tooltiptext'>Basic clean up of just fingernails including massage of hands.</span>
+				</div>
+				<div class='price'>$15</div>
 			</div>
 			<div class='product'>
-				<span class='name'>Gel Manicure</span><span class='price'>$30</span>
+				<div class='name'>Gel Manicure
+					<span class='tooltiptext'>Manicure and gel polish lasting twice as long as regular polish</span>
+				</div>
+				<div class='price'>$30</div>
 			</div>
 			<div class='product'>
-				<span class='name'>Regular Pedicure</span><span class='price'>$27</span>
+				<div class='name'>Regular Pedicure
+					<span class='tooltiptext'>Basic clean up of toenails including massage of feet.</span>
+				</div>
+				<div class='price'>$27</div>
 			</div>
 			<div class='product'>
-				<span class='name'>Organic Pedicure</span><span class='price'>$35</span>
+				<div class='name'>Organic Pedicure
+					<span class='tooltiptext'>Pedicure using only organic materials.</span>
+				</div>
+				<div class='price'>$35</div>
 			</div>
 			<div class='product'>
-				<span class='name'>Deluxe Pedicure</span><span class='price'>$40</span>
+				<div class='name'>Deluxe Pedicure
+					<span class='tooltiptext'>Pedicure using seasalt and warm towel wraps.</span>
+				</div>
+				<div class='price'>$40</div>
 			</div>
 			<div class='product'>
-				<span class='name'>Gel Pedicure</span><span class='price'>$40</span>
+				<div class='name'>Gel Pedicure
+					<span class='tooltiptext'>Pedicure using gel polish lasting twice as long as regular polish.</span>
+				</div>
+				<div class='price'>$40</div>
 			</div>
 			<div class='product'>
-				<span class='name'>Acrylic Full Set</span><span class='price'>$27</span>
+				<div class='name'>Acrylic Full Set
+					<span class='tooltiptext'>Attaching a full set of fake nails and painting them.</span>
+				</div>
+				<div class='price'>$27</div>
 			</div>
 			<div class='product'>
-				<span class='name'>Acrylic Fill-in</span><span class='price'>$17</span>
+				<div class='name'>Acrylic Fill-In
+					<span class='tooltiptext'>Repairing and recoloring fake nails.</span>
+				</div>
+				<div class='price'>$17</div>
 			</div>
 			<div class='product'>
-				<span class='name'>Solar Full Set</span><span class='price'>$43 & up</span>
+				<div class='name'>Solar Full Set
+					<span class='tooltiptext'>Attaching a full set of fake nails and using vibrant solar colors to paint them.</span>
+				</div>
+				<div class='price'>$43 & up</div>
 			</div>
 			<div class='product'>
-				<span class='name'>Solar Pink-Fill Only</span><span class='price'>$23</span>
+				<div class='name'>Solar Pink-Fill Only
+					<span class='tooltiptext'>Repairing and recoloring the base of solar nails.</span>
+				</div>
+				<div class='price'>$23</div>
 			</div>
 			<div class='product'>
-				<span class='name'>Solar Full-Fill</span><span class='price'>$33 & up</span>
+				<div class='name'>Regular Pedicure and Manicure
+					<span class='tooltiptext'>Repairing and recoloring the entirety of solar nails.</span>
+				</div>
+				<div class='price'>$33 & up</div>
 			</div>
 			<div class='product'>
-				<span class='name'>Polish Change Toes</span><span class='price'>$14</span>
+				<div class='name'>Polish Change Toes
+					<span class='tooltiptext'>Changing the current regular polish or adding polish to toes.</span>
+				</div>
+				<div class='price'>$14</div>
 			</div>
 			<div class='product'>
-				<span class='name'>Gel Polish Change Toes</span><span class='price'>$30</span>
+				<div class='name'>Gel Polish Change Toes
+					<span class='tooltiptext'>Changing the current gel polish or adding gel polish to toes.</span>
+				</div>
+				<div class='price'>$30</div>
 			</div>
 			<div class='product'>
-				<span class='name'>French Polish Toes</span><span class='price'>$17</span>
+				<div class='name'>French Polish Toes
+					<span class='tooltiptext'>Polishing the toes with clear gel.</span>
+				</div>
+				<div class='price'>$17</div>
 			</div>
 			<div class='product'>
-				<span class='name'>Polish Change Hands</span><span class='price'>$9</span>
+				<div class='name'>Polish Change Hands
+					<span class='tooltiptext'>Changing the current regular polish or adding polish to hands.</span>
+				</div>
+				<div class='price'>$9</div>
 			</div>
 			<div class='product'>
-				<span class='name'>Gel Polish Change Hands</span><span class='price'>$20 & up</span>
+				<div class='name'>Gel Polish Change Hands
+					<span class='tooltiptext'>Changing the current gel polish or adding gel polish to hands.</span>
+				</div>
+				<div class='price'>$20 & up</div>
 			</div>
 			<div class='product'>
-				<span class='name'>Take Off Acrylic</span><span class='price'>$10</span>
+				<div class='name'>Take Off Acrylic
+					<span class='tooltiptext'>Removing acrylic nails.</span>
+				</div>
+				<div class='price'>$10</div>
 			</div>
 			<div class='product'>
-				<span class='name'>Take Off Gel Polish</span><span class='price'>$3</span>
+				<div class='name'>Take Off Gel Polish
+					<span class='tooltiptext'>Removing gel polish from one finger or toe.</span>
+				</div>
+				<div class='price'>$3</div>
 			</div>
 			<div class='product'>
-				<span class='name'>Fix Acrylic Nail</span><span class='price'>$3 & up/each</span>
+				<div class='name'>Fix Acrylic Nail
+					<span class='tooltiptext'>The cost to fix each nail that needs to be fixed.</span>
+				</div>
+				<div class='price'>$3 & up/each</div>
 			</div>
 			<div class='product'>
-				<span class='name'>French Tips</span><span class='price'>$5</span>
+				<div class='name'>French Tips
+					<span class='tooltiptext'>Adding white and clear tips to the ends of nails.</span>
+				</div>
+				<div class='price'>$5</div>
 			</div>
 			<div class='product'>
-				<span class='name'>Eyebrow Waxing</span><span class='price'>$10</span>
+				<div class='name'>Eyebrow Waxing
+					<span class='tooltiptext'>Remove excess eyebrow hair.</span>
+				</div>
+				<div class='price'>$10</div>
 			</div>
 		</section>
 
